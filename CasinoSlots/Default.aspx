@@ -26,7 +26,7 @@
                 Your Bet: <asp:TextBox ID="txbxBet" runat="server"></asp:TextBox>
                 <br />
                 <br />
-                <asp:Button ID="btnPullLevel" runat="server" Text="Pull the Level" />
+                <asp:Button ID="btnPullLevel" runat="server" Text="Pull the Level" OnClick="btnPullLevel_Click" />
                 <br />
                 <br />
                 <asp:Label ID="lblResult" runat="server"></asp:Label>
